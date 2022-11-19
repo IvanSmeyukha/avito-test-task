@@ -20,7 +20,6 @@ func (h *Handler) InitRoutes() *gin.Engine {
 	{
 		users := api.Group("/users")
 		{
-			users.POST("/:id", h.reserveMoneyFromUserBalance)
 			users.GET("/:id", h.getUserBalance)
 			users.PUT("/:id", h.addMoneyToUserBalance)
 		}
