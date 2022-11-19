@@ -1,0 +1,8 @@
+port: "8080"
+
+db:
+    username: "user"
+    password: "1234"
+    host: "db"
+    port: "3306"
+    dbname: "avito_db"
